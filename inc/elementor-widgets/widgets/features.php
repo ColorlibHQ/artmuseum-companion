@@ -108,7 +108,7 @@ class Artmuseum_Features extends Widget_Base {
         $this->add_control(
             'features_title_heading',
             [
-                'label'     => __( 'Style Service Title ', 'artmuseum-companion' ),
+                'label'     => __( 'Style Features Title ', 'artmuseum-companion' ),
                 'type'      => \Elementor\Controls_Manager::HEADING,
                 'separator' => 'before',
             ]
@@ -257,14 +257,14 @@ class Artmuseum_Features extends Widget_Base {
 		//------------------------------ Style Services Box ------------------------------
 		$this->start_controls_section(
 			'style_servicesbox', [
-				'label' => __( 'Style Services Box', 'artmuseum-companion' ),
+				'label' => __( 'Style Features Box', 'artmuseum-companion' ),
 				'tab'   => Controls_Manager::TAB_STYLE,
 			]
 		);
         $this->add_control(
             'servicesbox_bgcolor',
             [
-                'label'     => __( 'Style Service Box Background Color', 'artmuseum-companion' ),
+                'label'     => __( 'Style Features Box Background Color', 'artmuseum-companion' ),
                 'type'      => \Elementor\Controls_Manager::HEADING,
                 'separator' => 'before',
             ]

@@ -285,19 +285,6 @@ class Artmuseum_Events extends Widget_Base {
                 endif
                 ?>
 
-<!--                 <div class="col-lg-6 event-right">
-                    <div class="single-events">
-                        <a href="#"><h4>Event on the rock solid carbon</h4></a>
-                        <h6><span>21st February</span> at Central government museum</h6>
-                        <p>
-                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
-                        </p>
-                        <a href="#" class="primary-btn text-uppercase">View Details</a>
-                        <img class="img-fluid" src="img/u1.jpg" alt="">
-                    </div>
-                </div> -->
-
-
             </div>
         </div>  
     </section>
