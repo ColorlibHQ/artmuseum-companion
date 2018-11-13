@@ -242,7 +242,9 @@ class Artmuseum_Banner extends Widget_Base {
 	protected function render() {
 
     $settings = $this->get_settings();
-
+    
+    // call load widget script
+    $this->load_widget_script();
     ?>
     <section class="banner-area relative" id="home">
         <div class="overlay overlay-bg"></div>  
@@ -295,6 +297,25 @@ class Artmuseum_Banner extends Widget_Base {
     </section>
     <?php
 
+    }
+
+    public function load_widget_script() {
+        if( \Elementor\Plugin::$instance->editor->is_edit_mode() === true  ) {
+        ?>
+        <script>
+        ( function( $ ){
+            // Exibition widget owlCarousel
+            var window_height    = window.innerHeight,
+            header_height        = $(".default-header").height(),
+            fitscreen            = window_height - header_height;
+
+
+            $(".fullscreen").css("height", window_height)
+            $(".fitscreen").css("height", fitscreen);
+        })(jQuery);
+        </script>
+        <?php 
         }
+    }
 	
 }
