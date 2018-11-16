@@ -152,12 +152,18 @@ class Artmuseum_Banner extends Widget_Base {
                 'selector'  => '{{WRAPPER}} .banner-content p',
             ]
         );
+        $this->add_control(
+            'ctrl_heading', [
+                'label'     => __( 'Background Overlay', 'artmuseum-companion' ),
+                'type'      => Controls_Manager::HEADING,
+                'separator' => 'before',
+            ]
+        );
         $this->add_group_control(
             Group_Control_Background::get_type(),
             [
                 'name'          => 'banneroverlay',
                 'label'         => __( 'Overlay Background', 'artmuseum-companion' ),
-                'separator'     => 'before',
                 'description'   => esc_html__( 'Set banner overlay background color.', 'artmuseum-companion' ),
                 'types'         => [ 'gradient' ],
                 'selector'      => '{{WRAPPER}} .banner-area .overlay-bg',
