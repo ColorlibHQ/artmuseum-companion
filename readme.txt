@@ -1,12 +1,14 @@
 === Plugin Name ===
-Contributors: colorlibplugins
+Contributors: colorlibplugins, silkalns
 Tags: widgets, plugin, demo, companion, home page, social, elementor, custom meta
 Requires at least: 3.8
 Tested up to: 4.9
 Stable tag: 1.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
 Artmuseum Companion is a companion plugin for Artmuseum WordPress theme by Colorlib.com.
+
 == Description ==
 
 Artmuseum Companion is a companion for Artmuseum WordPress theme by Colorlib.com. This plugin won't do anything for other free or premium WordPress themes and you need to download and install <a href="https://github.com/ColorlibHQ/artmuseum" target="_blank">Artmuseum</a>. If you are having problems with Artmuseum theme or its companion plugin the fastest way to receive help is via our theme <a href="https://colorlib.com/wp/forums" target="_blank">support forum</a>.
